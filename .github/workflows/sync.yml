@@ -1,0 +1,50 @@
+
+name: Streamadventist - Synchronisation globale
+
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'sync.mjs'
+      - '.github/workflows/sync.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: streamadventist-sync
+  cancel-in-progress: false
+
+jobs:
+  synchronize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+
+    steps:
+      - name: Charger le programme
+        uses: actions/checkout@v4
+
+      - name: Configurer Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Synchroniser toutes les sources
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          WIX_API_KEY: ${{ secrets.WIX_API_KEY }}
+          WIX_SITE_ID: c590c3a0-f98e-449e-a7b1-4aaee478d060
+          WIX_COLLECTION: AdventistflixCatalogue
+        run: node sync.mjs
+
+      - name: Enregistrer le catalogue
+        run: |
+          git config user.name "Streamadventist Sync"
+          git config user.email "actions@users.noreply.github.com"
+          git add catalogue.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Actualisation globale du catalogue"
+            git push
+          fi
