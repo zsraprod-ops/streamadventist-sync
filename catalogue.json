@@ -31606,15 +31606,22 @@
       "playlists": [
         {
           "name": "Au Cœur de l'Éducation adventiste",
-          "count": 11,
+          "count": 12,
           "url": "https://www.youtube.com/playlist?list=PLwQIsLJ5WoM4-PunM5PExqXgkTNnptCfW",
-          "image": "https://i.ytimg.com/vi/YHAQE5f193g/hqdefault.jpg",
+          "image": "https://i.ytimg.com/vi/Zu4EMT37ihU/hqdefault.jpg",
           "description": "Bienvenue dans la playlist de Au cœur de l’éducation adventiste, votre émission consacrée à tout ce qui fait la richesse de l’éducation adventiste. École, transmission des valeurs, accompagnement spirituel, développement personnel, engagement des familles et mission des enseignants : chaque épisode propose un regard concret et inspirant sur les grands enjeux de l’enseignement adventiste.\n\nCette playlist s’adresse à tous ceux qui souhaitent mieux comprendre la place de l’éducation chrétienne adventiste dans la formation des enfants et des jeunes. Vous y découvrirez des témoignages, des réflexions et des clés pour mieux saisir la vision, les objectifs et les défis de l’éducation adventiste aujourd’hui.",
           "id": "PLwQIsLJ5WoM4-PunM5PExqXgkTNnptCfW",
           "category": "Émissions et documentaires",
           "channelId": "UCX-xNWRk4Y786VO1znVQFZw",
-          "publishedAt": "2026-11-25T06:30:10Z",
+          "publishedAt": "2026-11-25T18:00:35Z",
           "videos": [
+            {
+              "id": "Zu4EMT37ihU",
+              "title": "Éduquer au discernement dans un monde de désinformation | Au Cœur de l'Éducation #adventisteffn 🙏🏼",
+              "publishedAt": "2026-11-25T18:00:35Z",
+              "image": "https://i.ytimg.com/vi/Zu4EMT37ihU/hqdefault.jpg",
+              "url": "https://www.youtube.com/watch?v=Zu4EMT37ihU"
+            },
             {
               "id": "YHAQE5f193g",
               "title": "Éduquer au discernement dans un monde de désinformation | Au Cœur de l'Éducation| #adventisteffn 🙏🏼",
@@ -146596,15 +146603,22 @@
   "playlists": [
     {
       "name": "Au Cœur de l'Éducation adventiste",
-      "count": 11,
+      "count": 12,
       "url": "https://www.youtube.com/playlist?list=PLwQIsLJ5WoM4-PunM5PExqXgkTNnptCfW",
-      "image": "https://i.ytimg.com/vi/YHAQE5f193g/hqdefault.jpg",
+      "image": "https://i.ytimg.com/vi/Zu4EMT37ihU/hqdefault.jpg",
       "description": "Bienvenue dans la playlist de Au cœur de l’éducation adventiste, votre émission consacrée à tout ce qui fait la richesse de l’éducation adventiste. École, transmission des valeurs, accompagnement spirituel, développement personnel, engagement des familles et mission des enseignants : chaque épisode propose un regard concret et inspirant sur les grands enjeux de l’enseignement adventiste.\n\nCette playlist s’adresse à tous ceux qui souhaitent mieux comprendre la place de l’éducation chrétienne adventiste dans la formation des enfants et des jeunes. Vous y découvrirez des témoignages, des réflexions et des clés pour mieux saisir la vision, les objectifs et les défis de l’éducation adventiste aujourd’hui.",
       "id": "PLwQIsLJ5WoM4-PunM5PExqXgkTNnptCfW",
       "category": "Émissions et documentaires",
       "channelId": "UCX-xNWRk4Y786VO1znVQFZw",
-      "publishedAt": "2026-11-25T06:30:10Z",
+      "publishedAt": "2026-11-25T18:00:35Z",
       "videos": [
+        {
+          "id": "Zu4EMT37ihU",
+          "title": "Éduquer au discernement dans un monde de désinformation | Au Cœur de l'Éducation #adventisteffn 🙏🏼",
+          "publishedAt": "2026-11-25T18:00:35Z",
+          "image": "https://i.ytimg.com/vi/Zu4EMT37ihU/hqdefault.jpg",
+          "url": "https://www.youtube.com/watch?v=Zu4EMT37ihU"
+        },
         {
           "id": "YHAQE5f193g",
           "title": "Éduquer au discernement dans un monde de désinformation | Au Cœur de l'Éducation| #adventisteffn 🙏🏼",
