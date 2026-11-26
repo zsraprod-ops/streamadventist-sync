@@ -3,7 +3,7 @@ name: Streamadventist - Synchronisation globale
 
 on:
   schedule:
-    - cron: '17 * * * *'
+    - cron: '17 */6 * * *'
   workflow_dispatch:
   push:
     paths:
